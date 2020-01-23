@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ventilador</title>
+
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500,700,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <script src="https://kit.fontawesome.com/900b415900.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+
+</head>
+
+<body>
+
+
+    <!-- Principal -->
+
+    <section class="seccion-principal">
+
+
+        <div class="container" id="reproductor-titulo">
+
+
+            <!-- Reproductor -->
+
+            <div class="reproductor">
+                <i class="far fa-play-circle fa-3x boton" id="boton-play-pause"></i>
+                <audio id="audio-ventilador" src="https://freesound.org/data/previews/167/167897_3076984-lq.mp3">
+                </audio>
+            </div>
+
+
+            <!-- Título -->
+
+            <div class="titulo">
+                <h1>Ventilador</h1>
+            </div>
+
+        </div>
+
+        <div class="subtitulo">
+            <p>La respuesta que estás buscando no está en los recovecos del lenguaje, está en el
+                sonido de un
+                ventilador.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- Intermedio (?) -->
+
+    <div class=" seccion-gris" id="intermedio">
+        <p><b>Es fama:</b> numerosos estudios confirmaron que la prolongada exposición al sonido de un
+            ventilador aumenta significativamente las probabilidades de encontrar respuestas a preguntas que
+            consideramos decisivas.</p>
+    </div>
+
+
+    <!-- Testimonios -->
+
+    <section id="testimonios">
+
+        <div id="testimonios-carousel" class="carousel slide" data-ride="false">
+
+            <ol class="carousel-indicators">
+                <li data-target="#testimonios-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#testimonios-carousel" data-slide-to="1"></li>
+                <li data-target="#testimonios-carousel" data-slide-to="2"></li>
+                <li data-target="#testimonios-carousel" data-slide-to="3"></li>
+                <li data-target="#testimonios-carousel" data-slide-to="4"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fluid texto-testimonio">
+                    <p><em>Se nos hizo costumbre. Cada domingo a la noche después de la cena, nos reunimos con mi
+                            familia en
+                            la
+                            sala de estar. Enciendo un habano, me sirvo un escocés y me dejo caer en el sofá. Mis
+                            hijos
+                            se
+                            encargan de que el ordenador —que está conectado al equipo de audio— deje sonando
+                            VENTILADOR
+                            durante horas. Hasta Jack, el perro, se acurruca a mis pies y se duerme por primera vez
+                            en
+                            toda
+                            la
+                            semana, apaciguado por el sonido agradable del ambiente.</em></p>
+                    <h4>Luis</h4>
+                    <p>42 años. Pergamino.</p>
+                </div>
+
+                <div class="carousel-item container-fluid texto-testimonio">
+                    <p><em>VENTILADOR es mi fuente de energía. No estoy exagerando. Todos los días me levanto a las
+                            cinco de
+                            la madrugada, voy al baño, me siento a hacer pis y caca, me lavo la cara, me seco, voy al
+                            comedor, enciendo la laptop, conecto mis auriculares y dejo sonando VENTILADOR durante dos
+                            horas. Ninguna otra forma de empezar la jornada me dio mejores resultados.</em></p>
+
+                    <h4>Florencia</h4>
+                    <p>59 años. Base Marambio.</p>
+                </div>
+
+                <div class="carousel-item container-fluid texto-testimonio">
+                    <p><em>Mi esposa me dejó por mi mejor amigo. Mi perro Sultán decidió mudarse a lo de mi vecino.
+                            Mi
+                            jefe
+                            me echó del trabajo por descuidar mis tareas. Luego descubrí que mi jefe, mi vecino, mi
+                            mejor
+                            amigo y mi perro eran la misma persona. Googleando inspiración para mi venganza,
+                            encontré
+                            algo
+                            mejor: paz. VENTILADOR me trajo paz y me trajo perdón, dos cosas que no sabía que
+                            existían.
+                            Mi vida siguió, y se desarrolló de una manera fascinante y del todo inesperada. Pero ya
+                            los
+                            estoy aburriendo, ¿no?</em></p>
+
+                    <h4>Ryunosuke</h4>
+                    <p>23 años. Villa Elisa.</p>
+                </div>
+
+                <div class="carousel-item container-fluid texto-testimonio">
+                    <p><em>Hace setenta y cuatro años que no pronuncio una palabra. Hoy rompo el silencio para decir
+                            esto:
+                            VENTILADOR. Nada más.</em></p>
+                    <h4>Pǔxián</h4>
+                    <p>100 años. Tibet.</p>
+                </div>
+
+                <div class="carousel-item container-fluid texto-testimonio">
+                    <p><em>VENTILADOR es el único sitio web que no empeoró mi vida.</em></p>
+                    <h4>Lisa</h4>
+                    <p>36 años. Honolulu.
+                    </p>
+                </div>
+
+            </div>
+
+            <a class="carousel-control-prev" href="#testimonios-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonios-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="seccion-gris">
+        <a target="_blank" href="https://twitter.com/search?q=ventilador&src=typed_query"><i
+                class="fab fa-twitter"></i></a></i>
+        <a target="_blank" href="https://www.instagram.com/explore/tags/ventilador/"><i
+                class="fab fa-instagram"></i></a>
+        <i class="fas fa-envelope"></i>
+    </footer>
+
+
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

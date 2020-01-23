@@ -1,0 +1,135 @@
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: black;
+    color: #dbdbdb;
+}
+
+h1,
+h4 {
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 3.4rem;
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+h1:hover {
+    color: #ebebeb;
+}
+
+p {
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+a {
+    color: #dbdbdb;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.seccion-principal {
+    background-image: url("../images/ventilador.jpg");
+    background-size: cover;
+}
+
+.seccion-gris {
+    background-color: #131313;
+    padding: 5% 18%;
+}
+
+
+/* Reproductor - Título */
+
+#reproductor-titulo {
+    padding: 17% 5% 20% 45%;
+    text-align: center;
+}
+
+.reproductor {
+    padding-bottom: 13%;
+}
+
+.boton {
+    color: #bebebe;
+}
+
+.boton:hover {
+    color: #dbdbdb;
+}
+
+.subtitulo p {
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: hsl(0, 0%, 0%, 0.4);
+    position: relative;
+    bottom: 100px;
+    padding: 1% 0%;
+}
+
+/* Intermedio (?) */
+
+#intermedio {
+    position: relative;
+    bottom: 1rem;
+}
+
+/* Testimonios */
+
+#testimonios {
+    padding: 7% 10%;
+}
+
+.texto-testimonio {
+    padding: 3% 15%;
+    height: 23rem;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 2% 0;
+}
+
+.fa-twitter,
+.fa-instagram,
+.fa-envelope {
+    padding: 0 3%;
+}
+
+/* Media Queries */
+
+@media (max-width: 991px) {
+    
+    p {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    #reproductor-titulo {
+        padding: 20% 15% 28%;
+    }
+
+    .reproductor {
+        padding-bottom: 17%;
+        padding-top: 7%;
+    }
+
+    .subtitulo p {
+        background-color: hsl(0, 0%, 0%, 0.4);
+        font-size: 1.2rem;
+        padding: 2% 10%;
+    }
+
+    .texto-testimonio {
+        padding: 3% 15%;
+        height: 27rem;
+    }
+}
