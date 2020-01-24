@@ -133,3 +133,11 @@ footer {
         height: 27rem;
     }
 }
+
+@media (max-width: 500px) {
+ 
+    .texto-testimonio {
+        padding: 3% 15%;
+        height: 33rem;
+    }
+}
